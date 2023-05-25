@@ -1,4 +1,9 @@
 # Semester-project2
+
+In This project I have created an e-commerce website that has both customer-facing and admin sections.
+Both sections are populated by a Strapi API.
+
+
 Clone this https://github.com/NoroffFEU/strapi-sp2 first
 
 Strapi Project
