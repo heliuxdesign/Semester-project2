@@ -19,8 +19,8 @@ If you get a warning about not being able to use port 1337, check that no other 
 
 ## Get the web-page running locally
 
-Clone this repository and move to the cloned directory.
-Run the following command:
+Clone this repository and move to the cloned directory.  
+Run the following command:  
 live-server
 
 The webpage will then be running locally.
