@@ -1,0 +1,36 @@
+// Carousel
+
+.carousel {
+    margin: auto;
+
+    @media (min-width: $tablet-width) {
+        width: 70%;
+    }
+
+    @media (min-width: $pc-width) {
+            width: 60%;
+    }   
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 40vh;
+    overflow: hidden;
+}
+
+.carousel-item:before {
+    content: "";
+    background-image: 
+        linear-gradient(
+            to bottom,
+            transparent, getColour(grey)
+        );
+
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+

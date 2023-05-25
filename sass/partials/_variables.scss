@@ -1,0 +1,27 @@
+$font-primary: "Prompt", sans-serif;
+$font-headings: "Italiana", serif;
+
+$pc-width: 1024px;
+$tablet-width: 768px;
+
+$colours: (
+    grey: #efefef,
+    green: #48a77c,
+    light-green: #43e89e,
+    yellow: #e8d338,
+    purple: #725ae8,
+    red: #e8462c,
+    dark: #212529,
+  );
+ 
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}
+
+
+
+
+
+
+
+

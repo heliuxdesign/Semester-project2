@@ -1,0 +1,95 @@
+.btn-common {
+    margin-top: 20px;
+    color: getColour(dark);
+    font-weight: bold;
+
+    a {
+        text-decoration: none;
+        color: getColour(dark);
+    }
+
+    a:hover {
+        @extend .hover-a-common;
+    }
+}
+
+.hover-a-common {
+    text-decoration: underline;
+}
+
+.btnYellow {
+    background-color: getColour(yellow);
+    border-color: getColour(green);
+    @extend .btn-common;
+}
+
+.btnRed {
+    background-color: getColour(red);
+    border-color: getColour(grey);
+    @extend .btn-common;
+}
+
+.btnRed:hover {
+    @extend .hover-a-common;
+}
+
+//Index home
+
+.bannerText {
+    .bannerbtn {
+        background-color: getColour(red);
+        border-color: getColour(purple);
+        @extend .btn-common;
+    }
+
+    .bannerbtn a:hover {
+        @extend .hover-a-common;
+    }
+    
+    @media (min-width: $tablet-width) {
+        top: 30%
+    }
+}
+
+// Products
+.btnsearch {
+    font-family: $font-primary;
+    height: 30px;
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+    outline: none;
+    border: none;
+    background-color: getColour(yellow);
+}
+
+// Details
+.cartBtn {
+    @extend .btnRed;
+}
+
+.cartBtn:hover {
+    @extend .hover-a-common;
+}
+
+// Add
+.delete {
+    margin-top: 40px;
+    padding: 20px;
+    color: getColour(dark);
+    background-color: getColour(red);
+    border-color: getColour(grey);
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.delete:hover {
+    @extend .hover-a-common;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+.navbar {
+    background: getColour(yellow);
+
+    .navbar-brand {
+        font-family: $font-headings;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: getColour(dark);
+    
+    @media (min-width: $tablet-width) {
+        margin-left: 40px;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-style: oblique;
+    text-decoration: underline;
+    color: getColour(dark);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.navbar-light .navbar-brand {
+      color: getColour(dark);
+    }
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' 
+                            viewBox='0 0 30 30'%3e%3cpath 
+                            stroke='rgba%2800, 0, 0, 1%29' 
+                            stroke-linecap='round' 
+                            stroke-miterlimit='10' 
+                            stroke-width='2' 
+                            d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+    border: 1px solid black;
+}
+
+
+

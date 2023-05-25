@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,IAAC,AAAA,CAAU,sBAAsB,CAAC;EACnC,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,eAAe;EACjC,OAAO,EAAG,SAAS;EACnB,aAAa,EAAE,GAAG;EAClB,gBAAgB,EAAE,iBAAiB;CACpC;;AAED,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,IAAC,AAAA,CAAU,sBAAsB,AAAA,MAAM,CAAC;EAC3C,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,gBAAgB;CACnC",
+    "sources": [
+        "../sass/partials/forms.scss"
+    ],
+    "names": [],
+    "file": "forms.css"
+}

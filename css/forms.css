@@ -1,0 +1,11 @@
+input[type=file]::file-selector-button {
+  border: 1px solid getColour(grey);
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: getColour(yellow);
+}
+
+input[type=file]::file-selector-button:hover {
+  border: 2px solid getColour(green);
+}
+/*# sourceMappingURL=forms.css.map */

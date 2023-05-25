@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-weight: 600;
+    background-image: radial-gradient(circle at center, getColour(grey), getColour(green));
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 1rem;
+}
+
+.centered {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.middle {
+  text-align: center;
+}
+
+.message-container {
+    color: getColour(red);
+}
+ 
+
+
+
+
+
+
+
+
+
+

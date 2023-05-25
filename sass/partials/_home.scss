@@ -1,0 +1,88 @@
+.bannerContainer {
+    position: relative;
+    text-align: center;
+}
+
+.bannerContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bannerText h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: getColour(red);
+    margin-bottom: 20px;
+
+    @media (min-width: $tablet-width) {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    @media (min-width: $pc-width) {
+        font-size: 50px;
+    }
+}
+
+.features {
+    display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+
+    @media (min-width: $tablet-width) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.featured {   
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 10px;
+    margin: 1rem; 
+    padding: 1rem;
+    background: getColour(grey);
+}
+
+.featured img {    
+    max-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.darkerColourBackground {
+    background-color: getColour(green);
+}
+
+// Footer
+.menu a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: getColour(purple);
+}
+
+.menu a:hover {
+    @extend .hover-a-common;
+}
+
+
+
+
+
+
+
+
+
+
+

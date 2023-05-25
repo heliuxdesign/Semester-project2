@@ -1,0 +1,27 @@
+.cartItem {
+    margin: auto;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: lighten(getColour(green), 20%);
+
+    @media (min-width: $tablet-width) {
+        width: 40%;
+    }
+}
+
+.productDetail {
+    height: 100%;
+}
+
+.cartItem img {
+    width: 15%;
+    text-align: center;
+}
+
+.hrCart {
+    border: 5px solid getColour(green);
+}
