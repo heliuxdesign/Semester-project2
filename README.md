@@ -8,7 +8,8 @@ For the web-page to run properly you need to have the strapi-api running by foll
 Clone this repository: https://github.com/NoroffFEU/strapi-sp2 
 
 To run the strapi-api
-Move to the cloned directory and run the following commands:  
+Move to the cloned directory and run the following commands:
+
 npm install  
 npm run develop
 
