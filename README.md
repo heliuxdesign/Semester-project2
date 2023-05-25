@@ -9,7 +9,7 @@ Clone this repository: https://github.com/NoroffFEU/strapi-sp2
 
 To run the strapi-api
 Move to the cloned directory and run the following commands:  
-npm install
+npm install  
 npm run develop
 
 The admin panel will open at http://localhost:1337/admin.
