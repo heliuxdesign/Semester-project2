@@ -27,3 +27,7 @@ live-server
 
 The webpage will then be running locally.
 
+## Contact
+
+<h3 align="left">Take contact via <a  href="https://www.linkedin.com/in/heli-j%C3%A4rvel%C3%A4inen-714ba818b/">LinkedIn</a> </h3>
+
