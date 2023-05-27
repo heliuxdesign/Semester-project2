@@ -2,7 +2,7 @@
 
 In This project I have created an e-commerce website that has both customer-facing and admin sections.
 Both sections are populated by a Strapi API.
-JavaScript/Sass, local storage.
+It`s build with JavaScript/Sass and I have used local storage.
 
 ## Running Strapi-api locally 
 For the web-page to run properly you need to have the strapi-api running by following these steps:
